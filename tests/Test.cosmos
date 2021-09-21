@@ -1,0 +1,35 @@
+<script>
+export default class ToolbarComponent {
+
+    constructor(){
+
+    }
+
+    mount(){
+
+    }
+
+    doSomething(){
+        alert("Worked");
+    }
+
+}
+
+</script>
+
+<style>
+
+    h1 {
+        color: red;
+    }
+
+    .container {
+        width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;
+    }
+
+</style>
+
+<div class="container">
+    <h1>The current working directory is: /Users/kylewright/Desktop/Cosmic/FileBuilder/tests</h1>
+    <button onclick="doSomething">Click Me</button>
+</div>
